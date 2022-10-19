@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUIBlazorAndWebTestApp.MAUI", "MAUIBlazorAndWebTestApp.MAUI\MAUIBlazorAndWebTestApp.MAUI.csproj", "{A1BA947A-8D51-43AC-8496-E301A59425F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIBlazorAndWebTestApp.Pages", "MAUIBlazorAndWebTestApp.Pages\MAUIBlazorAndWebTestApp.Pages.csproj", "{660B10B1-5552-414E-8172-542272602572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIBlazorAndWebTestApp.Wasm", "MAUIBlazorAndWebTestApp.Wasm\MAUIBlazorAndWebTestApp.Wasm.csproj", "{11E04023-8F6E-4BFF-8A5E-48213F0366EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1BA947A-8D51-43AC-8496-E301A59425F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BA947A-8D51-43AC-8496-E301A59425F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BA947A-8D51-43AC-8496-E301A59425F3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A1BA947A-8D51-43AC-8496-E301A59425F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BA947A-8D51-43AC-8496-E301A59425F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BA947A-8D51-43AC-8496-E301A59425F3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{660B10B1-5552-414E-8172-542272602572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660B10B1-5552-414E-8172-542272602572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660B10B1-5552-414E-8172-542272602572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660B10B1-5552-414E-8172-542272602572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E04023-8F6E-4BFF-8A5E-48213F0366EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E04023-8F6E-4BFF-8A5E-48213F0366EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E04023-8F6E-4BFF-8A5E-48213F0366EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E04023-8F6E-4BFF-8A5E-48213F0366EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
